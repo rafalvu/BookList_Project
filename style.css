@@ -1,0 +1,20 @@
+.success, .error{
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    border-radius: 3px;
+}
+.success{
+    background-color: #85d254
+}
+.error{
+    background-color: 	#c94d50
+}
+.alert {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .alert.show {
+    opacity: 1;
+  }
